@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "biographies",
+  "info": {
+    "singularName": "biography",
+    "pluralName": "biographies",
+    "displayName": "Biography"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AboutPicture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "About": {
+      "type": "blocks"
+    },
+    "Biography": {
+      "type": "blocks"
+    },
+    "BiographyPicture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
