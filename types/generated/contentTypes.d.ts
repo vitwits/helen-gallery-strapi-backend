@@ -808,6 +808,7 @@ export interface ApiArtworkArtwork extends Schema.CollectionType {
       'api::category.category'
     >;
     Description: Attribute.String;
+    Price: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
